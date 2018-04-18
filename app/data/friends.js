@@ -1,3 +1,4 @@
+//variable to hold the friends object data for use by other js files
 var friends = [
   {
     name: "Jeff",
