@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Friend Finder</title>
+
+  <!-- Load Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+   <!-- Load jQuery and Boostrap js -->
+   <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class = "jumbotron text-left">
+      <h1 class="display-4 font-weight-bold"><i class="fab fa-facebook-square"></i>&nbsp;Friend Finder</h1>
+      <hr>
+      <h2>Answer a few basic questions.</h2>
+      <h2>Then find a friend with the greatest compatibility!</h2>
+      <br>
+      <a href="/survey">
+        <button class="btn btn-primary" id="survey"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Go to Survey</button>
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>
+          <a href="/api/friends">API Friends List | </a>
+          <a href="">GitHub Repo</a>
+        </p>
+      </div>
+      <div class="col-sm-8"></div>
+    </div>
+  </div>
+<script src="survey.js"></script>
+</body>
+</html>
